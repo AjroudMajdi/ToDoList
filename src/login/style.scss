@@ -1,18 +1,43 @@
-@media all and (min-width: 480px) {
+
 .Login {
-    padding: 500px 500px;
-  }
-  .email{
-    margin: 0 auto;
-    max-width: 320px;
-  }
-  .password{
-    margin: 0 auto;
-    max-width: 320px;
-
-  }
-  .button{
-    margin: 50 px;
+  align-items: center;
+  justify-content: center;
+  margin-left: 550px;
+  margin-top: 250px;
+  border: 1px solid rgba(0, 0, 0, 0.35);
+  border-radius: 2px;
+  width: 750px;
+  height: 250px;
 
 
-  }}
+  &-title{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 40px;
+    color: #506AD4;
+
+  }
+  &-textField-email {
+    background-color:#FFFCE6;
+    color: #506AD4;
+     margin: 8px 0;
+    margin-right: 14px;
+    padding: 8px 13px;
+    border: 1px solid rgba(0, 0, 0, 0.35);
+    border-radius: 2px;
+
+  }
+  &-textField-password {
+    background-color:#FFFCE6;
+    color: #506AD4;
+     margin: 10px 0;
+    margin-right: 12px;
+    padding: 8px 13px;
+    border: 1px solid rgba(0, 0, 0, 0.35);
+    border-radius: 2px;
+
+  }
+&-button{  padding: 5px 30px;
+  margin-top: 12px;
+  margin-left: 5px;
+}}
+  
