@@ -1,5 +1,5 @@
 
-import { navigate, Router } from "@reach/router"
+import {  Router } from "@reach/router"
 import Login from './login'
 import Home from './home'
 
