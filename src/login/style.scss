@@ -1,14 +1,37 @@
+
 @media all and (min-width: 480px) {
 .Login {
-    padding: 500px 500px;
+    background: white;
+    border: 1px solid black;
+    border-radius: 25px;
+    padding: 24px 48px;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: flex-end;
+    justify-content: center;
+    width: 400px;
+    max-width: 100%;
+    margin: auto;
+    
+
   }
+  h1 {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 48px;
+  }
+
   .email{
-    margin: 0 auto;
-    max-width: 320px;
+    margin-bottom: 24px;
+    flex: 0 0 100%;
+    width: 100%;
+
   }
   .password{
-    margin: 0 auto;
-    max-width: 320px;
+    margin-bottom: 24px;
+    flex: 0 0 100%;
+    width: 100%;
+
 
   }
   .button{
